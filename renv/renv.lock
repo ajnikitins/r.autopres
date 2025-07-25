@@ -1,0 +1,25 @@
+{
+  "R": {
+    "Version": "4.4.3",
+    "Repositories": [
+      {
+        "Name": "CRAN",
+        "URL": "https://cloud.r-project.org"
+      }
+    ]
+  },
+  "Python": {
+    "Version": "3.12.9",
+    "Type": "virtualenv",
+    "Name": "./python/virtualenvs/renv-python-3.12"
+  },
+  "Packages": {
+    "renv": {
+      "Package": "renv",
+      "Version": "1.1.4",
+      "OS_type": null,
+      "Repository": "CRAN",
+      "Source": "Repository"
+    }
+  }
+}
